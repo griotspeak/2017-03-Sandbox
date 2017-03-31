@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
+    <pages>
+        <page name='W01-D1 - statements &amp; expressions'/>
+        <page name='W01-D1 - constants'/>
+        <page name='W01-D1 - functions'/>
+        <page name='W01-D1 - Bonus - Recursion'/>
+        <page name='W01-D3 - if '/>
+        <page name='W01-D3 - bool'/>
+        <page name='inference'/>
+        <page name='ranges'/>
+        <page name='basic enums &amp; switch'/>
+        <page name='W01-D3 - Associated values'/>
+        <page name='W01-D3 - simple tests'/>
+        <page name='W01-D4 Review'/>
+    </pages>
+</playground>
