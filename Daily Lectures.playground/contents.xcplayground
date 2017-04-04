@@ -13,5 +13,17 @@
         <page name='W01-D3 - Associated values'/>
         <page name='W01-D3 - simple tests'/>
         <page name='W01-D4 Review'/>
+        <page name='Untitled Page 2'/>
+        <page name='Untitled Page 3'/>
+        <page name='W02-D1 zip'/>
+        <page name='Untitled Page'/>
+        <page name='Untitled Page 4'/>
+        <page name='Untitled Page 5'/>
+        <page name='W02-D2 - Simple Structs'/>
+        <page name='W02-D2 - CustomStringConvertible'/>
+        <page name='W02-D2 - Equatable'/>
+        <page name='W02-D2 - Multiple Conformances'/>
+        <page name='W02-D2 - Simple Hashable'/>
+        <page name='W02-D2 - Less Simple Hashable'/>
     </pages>
 </playground>
