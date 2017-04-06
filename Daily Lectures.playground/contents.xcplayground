@@ -25,5 +25,12 @@
         <page name='W02-D2 - Multiple Conformances'/>
         <page name='W02-D2 - Simple Hashable'/>
         <page name='W02-D2 - Less Simple Hashable'/>
+        <page name='W02-D3 - Set Operations'/>
+        <page name='W02-D3 - Intro to Optionals p1'/>
+        <page name='W02-D4 - Make Invalid state unrepresentable'/>
+        <page name='W02-D4 - If let'/>
+        <page name='W02-D4 - My Zip'/>
+        <page name='W02-D4 - Arrays'/>
+        <page name='W02-D4 - Array Exercises'/>
     </pages>
 </playground>

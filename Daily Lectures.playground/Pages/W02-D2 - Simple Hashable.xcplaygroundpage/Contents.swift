@@ -17,3 +17,6 @@ let locations: Set<Location> = [
     Location(x: 0, y: 1),
     Location(x: 0, y: 1)
 ]
+
+locations.contains(Location(x: 2, y: 0))
+

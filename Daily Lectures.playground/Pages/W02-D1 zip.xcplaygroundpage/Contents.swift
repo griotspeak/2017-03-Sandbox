@@ -12,3 +12,5 @@ for tuple in zip(moreLetters, numbers) {
     print(tuple)
 }
 
+
+print(Array(zip(moreLetters, numbers)))
