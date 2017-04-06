@@ -58,3 +58,7 @@ let array2 = [4, 5, 6]
 mutableArray1 += array2
 let array1And2 = array1 + array2
 
+// drop first or last element
+shows.dropFirst()
+shows.dropLast()
+

@@ -1,13 +1,13 @@
 
-struct Location : CustomStringConvertible {
-    var x: Int
-    var y: Int
+let list: [(Character, Int)] = [
+    ("A", 1),
+    ("B", 2),
+    ("C", 3)
+]
 
-    var description: String {
-        return "(x: \(x), y: \(y))"
+for (letter, number) in list {
+    if number % 2 == 0 {
+        print("nice round number \(number)")
     }
 }
 
-let myLocation = Location(x: 1, y: 43)
-
-print(myLocation)
