@@ -32,5 +32,15 @@
         <page name='W02-D4 - My Zip'/>
         <page name='W02-D4 - Arrays'/>
         <page name='W02-D4 - Array Exercises'/>
+        <page name='Untitled Page 6'/>
+        <page name='W03-D1 Questions'/>
+        <page name='Untitled Page 7'/>
+        <page name='W03-D1 Enum'/>
+        <page name='W03-D1 Subtypes'/>
+        <page name='W03-D1 struct init intro'/>
+        <page name='W03-D1 struct init memberwise'/>
+        <page name='W03-D1 struct init loss of free inits'/>
+        <page name='W03-D1 struct custom init'/>
+        <page name='W03-D1 default values in inits'/>
     </pages>
 </playground>
