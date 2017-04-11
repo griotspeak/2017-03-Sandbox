@@ -42,5 +42,15 @@
         <page name='W03-D1 struct init loss of free inits'/>
         <page name='W03-D1 struct custom init'/>
         <page name='W03-D1 default values in inits'/>
+        <page name='W03-D2 - closures and Higher Order Functions'/>
+        <page name='W03-D2 - map'/>
+        <page name='W03-D2 implementing map'/>
+        <page name='W03-D2 - filter'/>
+        <page name='W03-D2 - reduce'/>
+        <page name='W03-D2 - flatMap'/>
+        <page name='W03-D2 - Dictionary'/>
+        <page name='W03-D2 - Iterator'/>
+        <page name='W03-D2 - Custom Iterators'/>
+        <page name='W03-D2 - Custom Sequences'/>
     </pages>
 </playground>
