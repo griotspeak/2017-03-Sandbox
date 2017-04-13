@@ -52,5 +52,12 @@
         <page name='W03-D2 - Iterator'/>
         <page name='W03-D2 - Custom Iterators'/>
         <page name='W03-D2 - Custom Sequences'/>
+        <page name='W03-D3 CodingBat'/>
+        <page name='W03-D3 Closures - setup'/>
+        <page name='W03-D3 Closures - p2'/>
+        <page name='W03-D3 map play'/>
+        <page name='W03-D3 reduce play'/>
+        <page name='W03-D3 filter play'/>
+        <page name='W03-D4 CodingBat'/>
     </pages>
 </playground>
