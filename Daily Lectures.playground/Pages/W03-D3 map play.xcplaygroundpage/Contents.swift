@@ -21,12 +21,13 @@ map(list: [1, 2, 3], transform: { input in
     return String(describing: input)
 })
 
-map(list: [2, 3, 4]) { input in
-    // Trailing closure syntax allows me to pull the closure out of the parens
+// trailing closure syntax
+// Trailing closure syntax allows me to pull the closure out of the parenthesis
+map(list: [1, 2, 3]) { input in
     return String(describing: input)
 }
 
-map(list: [3, 4, 5]) { input in
+map(list: [1, 2, 3]) { input in
     // I can omit return because I only have one expression in the closure
     String(describing: input)
 }

@@ -59,5 +59,13 @@
         <page name='W03-D3 reduce play'/>
         <page name='W03-D3 filter play'/>
         <page name='W03-D4 CodingBat'/>
+        <page name='W03-D4 classes and mutability'/>
+        <page name='W03-D4 init p2'/>
+        <page name='W03-D4 init'/>
+        <page name='W03-D4 Method dispatch'/>
+        <page name='W03-D4 Subclassing'/>
+        <page name='W03-D4 Value vs Reference Semantics'/>
+        <page name='W04-D1 Generics - min'/>
+        <page name='W04-D2 Syntax refresher'/>
     </pages>
 </playground>
