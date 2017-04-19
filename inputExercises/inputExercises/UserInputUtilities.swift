@@ -12,7 +12,8 @@ func getStringFromUser(prompt optionalPrompt: String?, failureMessage: String, a
         allowEmptyString || (input.isEmpty == false)
     }
     return getStringFromUser(prompt: optionalPrompt,
-                             failureMessage: failureMessage, predicate: emptyCheck)
+                             failureMessage: failureMessage,
+                             predicate: emptyCheck)
 }
 
 func getStringFromUser(prompt optionalPrompt: String?, failureMessage: String, predicate: (String) -> Bool) -> String {

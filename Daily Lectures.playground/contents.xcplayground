@@ -67,5 +67,6 @@
         <page name='W03-D4 Value vs Reference Semantics'/>
         <page name='W04-D1 Generics - min'/>
         <page name='W04-D2 Syntax refresher'/>
+        <page name='W04-D3 Warm up exercises'/>
     </pages>
 </playground>
