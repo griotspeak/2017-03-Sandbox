@@ -68,5 +68,6 @@
         <page name='W04-D1 Generics - min'/>
         <page name='W04-D2 Syntax refresher'/>
         <page name='W04-D3 Warm up exercises'/>
+        <page name='W04-D4 Simple Tic Tac Toe Printing'/>
     </pages>
 </playground>
