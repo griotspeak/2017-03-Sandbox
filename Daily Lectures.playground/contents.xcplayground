@@ -69,5 +69,6 @@
         <page name='W04-D2 Syntax refresher'/>
         <page name='W04-D3 Warm up exercises'/>
         <page name='W04-D4 Simple Tic Tac Toe Printing'/>
+        <page name='W05-D2 JSON - P1'/>
     </pages>
 </playground>

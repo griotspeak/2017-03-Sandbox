@@ -1,0 +1,29 @@
+`loadView`
+	- called on demand
+	- Must set `self.view` to a non-nil value before completion
+	- views are loaded lazily
+`viewDidLoad`
+	- called immediately after `loadView`
+	- do setup and connection work that requires the existence of views
+
+
+
+`viewWillAppear`
+`viewDidAppear`
+
+`viewWillDisappear`
+`viewDidDisappear`
+
+
+## Text
+- input
+	- `UITextField` input of a single line of text
+	- `UITextView` longer form and/or formatted text 
+- display without input
+	- `UILabel` - display of a short piece (usually a single line)  of text
+	- `UITextView` display of longer text
+
+## Typical Delegate words
+- will
+- did
+- should
