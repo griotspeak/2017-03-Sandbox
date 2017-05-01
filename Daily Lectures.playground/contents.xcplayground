@@ -70,5 +70,11 @@
         <page name='W04-D3 Warm up exercises'/>
         <page name='W04-D4 Simple Tic Tac Toe Printing'/>
         <page name='W05-D2 JSON - P1'/>
+        <page name='W05-D2 JSON - P2'/>
+        <page name='W05-D2 JSON - P3'/>
+        <page name='W05-D2 JSON - P4'/>
+        <page name='W05-D2 JSON - P5'/>
+        <page name='W05-D2 Error handling'/>
+        <page name='W05-D3 Preconditions and Assertions'/>
     </pages>
 </playground>
