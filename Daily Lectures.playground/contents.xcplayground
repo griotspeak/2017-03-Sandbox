@@ -76,5 +76,6 @@
         <page name='W05-D2 JSON - P5'/>
         <page name='W05-D2 Error handling'/>
         <page name='W05-D3 Preconditions and Assertions'/>
+        <page name='W06-D2 JSON reference imple'/>
     </pages>
 </playground>

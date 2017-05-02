@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AutolayoutIntro" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +21,46 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TQs-Df-4MP">
+                                <rect key="frame" x="10" y="30" width="355" height="627"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h68-tt-bBN">
+                                        <rect key="frame" x="89" y="156.5" width="177.5" height="313.5"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="POx-sT-XwQ">
+                                        <rect key="frame" x="20" y="8" width="127" height="95"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="127" id="GQU-Vg-EaC"/>
+                                            <constraint firstAttribute="height" constant="95" id="q4R-Hu-pBG"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="h68-tt-bBN" firstAttribute="centerY" secondItem="TQs-Df-4MP" secondAttribute="centerY" id="Kvy-nK-kJ2"/>
+                                    <constraint firstItem="POx-sT-XwQ" firstAttribute="leading" secondItem="TQs-Df-4MP" secondAttribute="leading" constant="20" id="Nhl-f8-0fm"/>
+                                    <constraint firstItem="h68-tt-bBN" firstAttribute="height" secondItem="TQs-Df-4MP" secondAttribute="height" multiplier="1:2" id="Q84-zi-NY8"/>
+                                    <constraint firstItem="POx-sT-XwQ" firstAttribute="top" secondItem="TQs-Df-4MP" secondAttribute="top" constant="8" id="aUS-Tt-gxU"/>
+                                    <constraint firstItem="h68-tt-bBN" firstAttribute="centerX" secondItem="TQs-Df-4MP" secondAttribute="centerX" id="b92-Xq-iwh"/>
+                                    <constraint firstItem="h68-tt-bBN" firstAttribute="width" secondItem="TQs-Df-4MP" secondAttribute="width" multiplier="1:2" id="pYL-Zt-MyF"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="TQs-Df-4MP" secondAttribute="trailing" constant="10" id="2S8-u9-Ouq"/>
+                            <constraint firstItem="TQs-Df-4MP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="4nm-9N-gNY"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TQs-Df-4MP" secondAttribute="bottom" constant="10" id="Qad-Yl-wMA"/>
+                            <constraint firstItem="TQs-Df-4MP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="oFX-XL-Im5"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-644" y="166.8665667166417"/>
         </scene>
     </scenes>
 </document>
