@@ -77,5 +77,7 @@
         <page name='W05-D2 Error handling'/>
         <page name='W05-D3 Preconditions and Assertions'/>
         <page name='W06-D2 JSON reference imple'/>
+        <page name='W06-D3 Basic Network Request'/>
+        <page name='W06-D3 Deserializing Basic JSON Response'/>
     </pages>
 </playground>
