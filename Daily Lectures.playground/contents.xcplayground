@@ -79,5 +79,8 @@
         <page name='W06-D2 JSON reference imple'/>
         <page name='W06-D3 Basic Network Request'/>
         <page name='W06-D3 Deserializing Basic JSON Response'/>
+        <page name='W06-D4 Warm up'/>
+        <page name='W06-D4 TableViewDataSource'/>
+        <page name='W06-D4 TableViewDelegate'/>
     </pages>
 </playground>
