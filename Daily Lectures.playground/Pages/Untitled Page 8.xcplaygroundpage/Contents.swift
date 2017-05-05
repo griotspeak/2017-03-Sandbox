@@ -24,11 +24,6 @@ let task = URLSession.shared.dataTask(with: request) { (data,responce,error) in
                 print(String(describing: json))
 
 
-                let firstDictionary = json[0]
-                let author = firstDictionary["author"] as? String
-
-
-
             }
             catch {
                 print(error)
