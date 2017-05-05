@@ -82,5 +82,8 @@
         <page name='W06-D4 Warm up'/>
         <page name='W06-D4 TableViewDataSource'/>
         <page name='W06-D4 TableViewDelegate'/>
+        <page name='W06-D4 TableViewDataSource p2'/>
+        <page name='Untitled Page 8'/>
+        <page name='W06-D4 Euler'/>
     </pages>
 </playground>
