@@ -1,0 +1,1 @@
+You must create a file named `Private.json` within WhatsTheWeather with a key "OpenWeatherAPIKey"
