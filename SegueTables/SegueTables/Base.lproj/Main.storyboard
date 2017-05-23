@@ -1,26 +1,87 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="54q-eC-WY7">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="euF-05-rfH">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <tableViewController id="0HE-Ay-Qud" customClass="ViewController" customModule="SegueTables" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="0xf-nj-MJ5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="0HE-Ay-Qud" id="sK4-f2-Z4U"/>
+                            <outlet property="delegate" destination="0HE-Ay-Qud" id="27d-FH-TBD"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="dJk-g5-vFN"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="inX-iS-h1l" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1123.5" y="-168.5"/>
+        </scene>
+        <!--Horoscope View Controller-->
+        <scene sceneID="o5n-Ue-c8a">
+            <objects>
+                <viewController storyboardIdentifier="HoroscopeViewController" id="ZXH-aZ-1VL" customClass="HoroscopeViewController" customModule="SegueTables" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RGs-NO-dkB"/>
+                        <viewControllerLayoutGuide type="bottom" id="aLt-rs-lRw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6VQ-fy-rBh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rocky loves Emily!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2pc-yP-zY2">
+                                <rect key="frame" x="16" y="323" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2pc-yP-zY2" firstAttribute="centerY" secondItem="6VQ-fy-rBh" secondAttribute="centerY" id="Fi1-Wm-itL"/>
+                            <constraint firstItem="2pc-yP-zY2" firstAttribute="centerX" secondItem="6VQ-fy-rBh" secondAttribute="centerX" id="GMv-95-zXB"/>
+                            <constraint firstItem="2pc-yP-zY2" firstAttribute="leading" secondItem="6VQ-fy-rBh" secondAttribute="leadingMargin" id="Hab-Np-RWo"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="2pc-yP-zY2" secondAttribute="trailing" id="j7s-z2-qhC"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="kNb-KX-Qu7"/>
+                    <connections>
+                        <outlet property="horoscopeLabel" destination="2pc-yP-zY2" id="tDw-ZM-UPW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qou-tH-yBS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2177.5" y="-169.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="3yy-w3-RWP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="54q-eC-WY7" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yFI-WG-MEd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="0HE-Ay-Qud" kind="relationship" relationship="rootViewController" id="fNO-Dp-oqv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bL1-6N-VQT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="536.5" y="-168.5"/>
         </scene>
     </scenes>
 </document>

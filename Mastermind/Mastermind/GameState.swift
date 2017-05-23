@@ -48,16 +48,38 @@ extension Code {
         internal init(guess: Code, answer: Code) throws {
             guard guess.value.count == answer.value.count else { throw Error.unequalCodeLength }
 
-            let perfect = zip(guess.value, answer.value).reduce(0) {
-                ($1.0 == $1.1) ? $0 + 1 : $0
+            var imperfect = 0
+            let imperfectOrIncorrect = zip(guess.value, answer.value).filter { $0 != $1 }
+
+            var answerAnalysis: [Color: Int] = [:]
+            var guessAnalysis: [Color: Int] = [:]
+
+            for (guessPeg, answerPeg) in imperfectOrIncorrect {
+                if let currentCount = answerAnalysis[answerPeg] {
+                    answerAnalysis[answerPeg] = currentCount + 1
+                } else {
+                    answerAnalysis[answerPeg] = 1
+                }
+
+                if let currentCount = guessAnalysis[guessPeg] {
+                    guessAnalysis[guessPeg] = currentCount + 1
+                } else {
+                    guessAnalysis[guessPeg] = 1
+                }
             }
-            let imperfect = Set(guess.value).intersection(Set(answer.value)).count - perfect
+
+            for (color, guessCount) in guessAnalysis {
+                let answerCount = answerAnalysis[color] ?? 0
+                imperfect += min(guessCount, answerCount)
+            }
+
+            let perfect = answer.length - imperfectOrIncorrect.count
 
             self.init(perfect: perfect, imperfect: imperfect)
         }
 
         static func array(_ guesses: [Code], answer: Code) throws -> [Feedback] {
-            return try guesses.flatMap { guess in
+            return try guesses.map { guess in
                 try Feedback(guess: guess, answer: answer)
             }
         }

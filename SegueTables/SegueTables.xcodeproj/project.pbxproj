@@ -14,6 +14,7 @@
 		320C0F081EC20F8300D4EF43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 320C0F061EC20F8300D4EF43 /* LaunchScreen.storyboard */; };
 		320C0F131EC20F8300D4EF43 /* SegueTablesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320C0F121EC20F8300D4EF43 /* SegueTablesTests.swift */; };
 		320C0F1E1EC20F8300D4EF43 /* SegueTablesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320C0F1D1EC20F8300D4EF43 /* SegueTablesUITests.swift */; };
+		320C0F2C1EC20FDB00D4EF43 /* HoroscopeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320C0F2B1EC20FDB00D4EF43 /* HoroscopeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		320C0F191EC20F8300D4EF43 /* SegueTablesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SegueTablesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		320C0F1D1EC20F8300D4EF43 /* SegueTablesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueTablesUITests.swift; sourceTree = "<group>"; };
 		320C0F1F1EC20F8300D4EF43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		320C0F2B1EC20FDB00D4EF43 /* HoroscopeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HoroscopeViewController.swift; path = ../../SegueDemo/SegueDemo/HoroscopeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				320C0EFD1EC20F8300D4EF43 /* AppDelegate.swift */,
 				320C0EFF1EC20F8300D4EF43 /* ViewController.swift */,
+				320C0F2B1EC20FDB00D4EF43 /* HoroscopeViewController.swift */,
 				320C0F011EC20F8300D4EF43 /* Main.storyboard */,
 				320C0F041EC20F8300D4EF43 /* Assets.xcassets */,
 				320C0F061EC20F8300D4EF43 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				320C0F2C1EC20FDB00D4EF43 /* HoroscopeViewController.swift in Sources */,
 				320C0F001EC20F8300D4EF43 /* ViewController.swift in Sources */,
 				320C0EFE1EC20F8300D4EF43 /* AppDelegate.swift in Sources */,
 			);

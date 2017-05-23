@@ -18,12 +18,15 @@ class HoroscopeViewController: UIViewController {
         }
     }
 
+    var sign: String!
+
     @IBOutlet var horoscopeLabel: UILabel!
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
 
         horoscopeLabel.text = horoscope
+        navigationItem.title = sign
     }
 
 }
