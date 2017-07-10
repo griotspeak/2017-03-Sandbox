@@ -95,7 +95,7 @@ final class Student : Hashable {
             let family = json[Student.familyNameKey] as? String else {
                 return nil
         }
-
+        
         self.init(givenName: given, familyName: family)
     }
 
